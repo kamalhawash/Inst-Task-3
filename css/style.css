@@ -1,0 +1,370 @@
+.navbar-brand{
+    display: flex-start;
+}
+.navbar {
+    background: linear-gradient(to right, #5c515b, #393643, #816969);
+}
+#home{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img/pexels-janik-butz-5366526.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-position: center center;
+}
+.form-control{
+
+    border: 1px solid #5e505c !important;
+}
+.imgcon{
+    width: 100%;
+    height: auto;
+    opacity: 80% ;
+}
+#about{
+        background-image: url(../img/pexels-lucas-pezeta-3934514.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-position: center center;
+        color: whitesmoke;
+        text-align: center;
+}
+h1{
+    font-size: 30px !important;
+    font-family: 'Courier New', Courier, monospace ;
+
+}
+#about .about-header{
+    border-bottom: 2px solid wheat;
+    width: 30%;
+    margin: auto;
+    padding: 20px 0px;
+
+
+}
+#about .about-header h1{
+    text-align: center;
+    border-left: 2px solid wheat;
+    border-right: 2px solid wheat;
+
+    
+}
+.abouttext p{
+    font-size:  20px; ;
+}
+.container{
+    padding-top: 100px;
+}
+.abouttext{
+    padding: 60px 20px;
+}
+
+#profile{
+    background-image: linear-gradient(to right, #5c515b, #393643, #816969);
+    color: wheat;
+    text-align: center;
+    font-weight: bold;
+    padding: 60px 20px;
+
+}
+#profile .profileheader{
+    width: 40%;
+    margin: auto;
+}
+#profile .profileheader h1{
+    position: relative;
+}
+#profile .profileheader h1::after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 5px;
+    right: 0px;
+    background-color: #b9c1c6;
+    top: 50%;
+}
+#profile .profileheader h1::before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 5px;
+    left: 0px;
+    background-color: #b9c1c6;
+    top: 50%;
+}
+.img-fluid{
+    border: 1px solid white;
+    border-radius: 100px;
+}
+.profiledata{
+    margin-bottom: 80px;
+}
+.col-md-9 .row {
+justify-content: center;}
+
+.col-lg-3{
+    margin-top: 10px;
+}
+i{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:#b9c1c6 ;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* ............................. */
+
+#product .product_header {
+    width: 80%;
+
+}
+
+#profile .profileHeader h1 {
+    font-size: 25px;
+}
+
+#profile .profileHeader {
+    width: 70%;
+}
+
+.profileData h1 {
+    font-size: 25px;
+
+}
+
+
+#product {
+padding: 50px 0px;
+text-align: center;
+background-image: url(../img/pexels-sindre-strøm-958362.jpg);
+background-attachment: fixed;
+background-size: 100% 100%;
+height: auto;
+color: wheat;
+}
+
+#product .product_header {
+margin-top: 30px;
+width: 30%;
+margin: auto;
+border-bottom: 2px solid white ;
+border-radius: 20%;
+color: white;
+}
+
+#product .product_header h1 {
+border-left: 2px solid white;
+border-right: 2px solid white;
+font-family: 'Courier New', Courier, monospace;
+border-radius: 20%;
+}
+
+#product .card {
+background-color: #444;
+color: white;
+margin-top: 10px;
+}
+
+.card img {
+height: 300px;
+}
+
+/* ............................. */
+
+/* Footer Style */
+.site-footer ,.container {
+    padding: 10px ;
+}
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+
+.site-footer hr.small {
+    margin: 20px 0;
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links a {
+    color: #737373;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline;
+}
+
+.site-footer .social-icons {
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d;
+}
+
+.copyright-text {
+    margin: 0;
+    font-size: 12px;
+
+}
+
+.fa-brands{
+    margin-right: 15px;
+}
+
+/* ..................... ended  */
+
+/* Media query */
+
+@media(max-width:950px){
+    #about .container .row {
+        margin-top: 75px;
+    }
+    .imgcon{
+        margin-top: 95px;
+        width: 75%;
+    }
+    .abouttext h1{
+        font-size: 27px !important;
+        font-weight: bold;
+    }
+    .abouttext p{
+        font-size: 15px !important;
+    }
+    .abouttext{
+        margin-top: 40px;
+    }
+    #profile .profileheader h1::before{
+        left: -60px ;
+    }
+    #profile .profileheader h1::after{
+        right: -60px ;
+    }
+    #profile .container .row{
+        justify-content: center;
+    }
+}
+
+@media(max-width:650px){
+    #about .about-header {
+        width: 45%;
+    }
+    
+    #profile h1{
+        font-size: 25px !important;
+        font-weight: bold;
+
+    }
+    #profile .profileheader{
+        width: 45%;
+    }
+    #profile p{
+        font-weight: normal;
+    }
+    #product .product_header {
+        width: 55%;
+    }
+    .copyright-text{
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:450px){
+    .imgcon {
+        margin:0px;
+        width: 70%;
+    }
+    #about .about-header{
+        width: 60%;
+    }
+    #profile h1{
+        font-size: 20px !important;
+    }
+    #profile .profileheader {
+        width: 50%;
+    }
+    .img-fluid {
+        margin-bottom: 15px;
+    }
+    #product .product_header h1{
+        font-size: 22px !important;
+    }
+    .site-footer .social-icons{
+    justify-content: space-evenly;   
+    margin: 0% ;
+    padding: 0%;
+ }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
